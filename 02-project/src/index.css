@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+html,
+body {
+  background-color: black;
+}
+.parentcard {
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1rem;
+  
+}
+.card {
+  width: 300px;
+  height: 350px;
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding-top: 5rem;
+  
+  margin: 1rem;
+}
+.card h2 {
+  color: white;
+  padding-bottom: 2rem;
+}
+button {
+  border: 1px solid aqua;
+  background-color: antiquewhite;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.card h3 {
+  color: white;
+  padding-bottom: 1rem;
+}

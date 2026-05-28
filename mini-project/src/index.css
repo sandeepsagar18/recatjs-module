@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+html,body{
+  background-color: black;
+}
+
+.parent{
+  min-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.card{
+  height: 400px;
+  width: 320px;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.card{
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  /* background-color: aqua; */
+  padding: 1px;
+  height: 130px;
+
+}
+.top img{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0px;
+  margin-right: 25px;
+  
+}
+ 
+.center{
+  /* background-color:green; */
+padding: 10px;
+  height: 130px;
+}
+.center h3{
+  color:rgb(247, 162, 4);
+  font-size: 40px;
+}
+ 
+.center h2{
+  color: black;
+  margin-top: 5px;
+}
+.center span{
+  margin: 1rem;
+  color: black;
+  font-size:15px;
+}
+
+.bottom{
+  padding-top:10px ;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+height: 80px;
+border-top: 0.1px solid black;
+
+
+}
+.hour h3{
+  color: black;
+
+}
+.hour h4{
+  color: black;
+  border: none;
+
+}
+
+.center h4{
+  width:fit-content;
+  /* border: 2px solid black; */
+  padding: 2px;
+  border-radius: 5px;
+  margin-top:5px;
+  color: black;
+  display:inline-block;
+  margin: 5px;
+  background-color:grey;
+
+}
+.center span{
+  font-size: 15px;
+}
+.bottom button{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+
+}
+.bottom button:hover{
+background-color:white;
+color: black;
+font-weight: 600;
+}
